@@ -151,8 +151,7 @@ void poseMsgCallback(const geometry_msgs::PoseStamped::ConstPtr& pose_msg)
          +plane_normal.getZ() * last_position.getZ()) / last_position.getZ();
 
   }
-
-
+  
 
   last_pose_msg_ = pose_msg;
 
