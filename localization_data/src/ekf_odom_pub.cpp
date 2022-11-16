@@ -6,9 +6,9 @@
  * Publishes odometry information for use with robot_pose_ekf package.
  *   This odometry information is based on wheel encoder tick counts.
  * Subscribe: ROS node that subscribes to the following topics:
- *  right_ticks : Tick counts from the right motor encoder (std_msgs/Int16)
+ *  right_ticks: Tick counts from the right motor encoder (std_msgs/Int16)
  * 
- *  left_ticks : Tick counts from the left motor encoder  (std_msgs/Int16)
+ * left_ticks : Tick counts from the left motor encoder  (std_msgs/Int16)
  * 
  *  initial_2d : The initial position and orientation of the robot.
  *               (geometry_msgs/PoseStamped)
